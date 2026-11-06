@@ -1,0 +1,22 @@
+public class Examen {
+        public static void main(String[] args) {
+        double precio1 = 12.5;
+        double primeraUnidad = 4;
+        double total1 = precio1 * primeraUnidad;
+        double descuento1 = total1 * 10 / 100;
+        double precioNeto1 = total1 - descuento1;
+        System.out.println("Pedido 1: " + precioNeto1 + " euros");
+        double precio2 = 8.0;
+        double segundaUnidad = 5;
+        double total2 = precio2 * segundaUnidad;
+        double descuento2 = total2 * 10 / 100;
+        double precioNeto2 = total2 - descuento2;
+        System.out.println("Pedido 2: " + precioNeto2 + " euros");
+        double plazo = (precioNeto1 + precioNeto2) / 3;
+        System.out.println("Pago de cada plazo (3 plazos): " +  plazo + " euros");
+        double media = (primeraUnidad + segundaUnidad) / 2;
+        System.out.println("Media de unidades por pedido: " + media);
+        }
+        }
+
+
